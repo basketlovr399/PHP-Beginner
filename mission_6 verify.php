@@ -52,7 +52,7 @@ if(!empty($_POST["submit"])){
 	    		$mail->addAddress($_POST["email"], $_POST["name"]); 
 	    		$mail->Subject = MAIL_SUBJECT; 
 	    		$mail->isHTML(true);    
-	    		$body = "仮登録は完了しました。以下のリンクから本登録を本登録を行ってください。"."<br>"."https://tb-210614.tech-base.net/mission_6new.php";
+	    		$body = "仮登録は完了しました。以下のリンクから本登録を本登録を行ってください。"."<br>"."URL here";
 	
 	    		$mail->Body  = $body; // メール本文
     // メール送信の実行
